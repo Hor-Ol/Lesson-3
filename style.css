@@ -67,7 +67,7 @@ body {
 
 .header-nav-links a:hover,
 .header-nav-links a:focus {
-  color: #f14814;
+  color: red;
 }
 
 /* .header-nav-links-buy-template a {
