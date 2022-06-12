@@ -44,6 +44,7 @@ body {
   justify-content: flex-end;
   align-items: center;
   gap: 40px;
+  font-weight: bold;
 }
 
 .header-nav-links li:not(:first-child) {
@@ -52,7 +53,7 @@ body {
 
 .header-nav-links .header-nav-links-buy-template.header-nav-links-buy-template {
   margin-left: 20px;
-  background-color: #dddbda;
+  background-color: #e5e5e5;
 }
 
 .header-nav-links a {
@@ -76,16 +77,10 @@ body {
   text-align: center;
 }
 
-.header-nav-links a:hover,
-.header-nav-links a:focus {
-  color: #f14814;
-  fill: #f14814;
-}
-
 .header-nav-links-buy-template {
   width: 6.9rem;
   height: 4.2rem;
-  background-color: #dddbda;
+  background-color: #e5e5e5;
   border-radius: 0.3rem;
 }
 
@@ -94,9 +89,102 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: #e5e5e5;
+  border-radius: 0.3rem;
 }
 
 .header-nav-links-buy-template a svg {
   width: 1.7rem;
   height: 1.7rem;
+}
+
+.header-nav-links-buy-template a span {
+  display: block;
+  overflow: hidden;
+  width: 2rem;
+  aspect-ratio: 1;
+  color: #fff;
+  background-color: #3f3b3d;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 2rem;
+}
+
+.header-nav-links a:hover,
+.header-nav-links a:focus {
+  color: #f14814;
+  fill: #f14814;
+}
+
+main {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  /* background-color: orangered; */
+}
+
+.hero {
+}
+
+.hero--welcome {
+  height: 60rem;
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero--welcome-tagline {
+  height: 80%;
+  width: 100%;
+  background-color: #3f3b3d;
+}
+
+.hero--welcome-img {
+  height: inherit;
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero--welcome-tagline {
+}
+
+.hero--welcome-tagline-text {
+  display: flex;
+  align-items: flex-end;
+  width: 37.5rem;
+  height: 70%;
+  margin: 0 auto;
+}
+
+.hero--welcome-tagline-text span {
+  font-size: 3.3rem;
+  line-height: 4.25rem;
+  text-align: left;
+  display: block;
+  color: #fff;
+}
+
+.hero--welcome-tagline-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 37.5rem;
+  margin: 3rem auto;
+}
+
+.hero--welcome-tagline-buttons a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.hero--welcome-tagline-buttons-shop {
+  background-color: #f14814;
+  width: 17.8rem;
+  line-height: 4.5rem;
+  text-align: center;
+}
+
+.hero--welcome-tagline-buttons-browse {
+  width: 17.8rem;
+  line-height: 4.5rem;
+  text-align: center;
 }
