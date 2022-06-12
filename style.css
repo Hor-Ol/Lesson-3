@@ -188,3 +188,61 @@ main {
   line-height: 4.5rem;
   text-align: center;
 }
+
+.hero--descr {
+  height: 48rem;
+  width: 70rem;
+  margin: 5rem auto;
+}
+
+.hero--descr-text {
+  height: 13rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero--descr-text-top {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  margin-bottom: 1rem;
+  color: #f14814;
+  font-weight: bold;
+}
+
+.hero--descr-text-main {
+  font-size: 2.8rem;
+  line-height: 3.732rem;
+  text-align: center;
+}
+
+.hero--descr-features {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+
+.hero--descr-feature {
+  width: 22rem;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.hero--descr-feature img {
+  width: 8rem;
+  margin: 0 auto;
+}
+
+.hero--descr-feature-head {
+  text-align: center;
+  font-size: 2.1rem;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.hero--descr-feature-sub-head {
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 1.6;
+}
